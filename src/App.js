@@ -19,7 +19,7 @@ function Resultado (props) {
     let equa;
     let sinal;
     
-    if(props.x0!=0 && props.x2!=0){
+    if(props.x0!==0 && props.x2!==0){
 
       a = (props.y2-props.y0)/(props.x2-props.x0);
       b = ((props.y0*props.x2)-(props.y2*props.x0))/(props.x2-props.x0);
